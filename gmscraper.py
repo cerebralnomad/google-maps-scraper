@@ -65,7 +65,7 @@ args = parser.parse_args()
 # End parser construction
 
 # enter your api key here
-api_key = 'AIzaSyB-cyhknJ-lQ2n1uk_EhPE2VMwh_Mc7dtQ'
+api_key = ''
 
 coordinates = args.coordinates
 keyword = args.keyword
