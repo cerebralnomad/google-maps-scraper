@@ -23,4 +23,9 @@ A recent requirement of Google is that you have a form of payment on file before
 Use of the key however is basically free for personal use as Google will apply a monthly credit  
 of $200 to your account 
 
+## Usage
+
+Since this script was designed for personal use and to be run locally, the API key is hard coded into the file.  
+You'll need to edit gmscraper.py and add your API key on line 68.  
+The line will look like:  
 
