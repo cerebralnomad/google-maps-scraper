@@ -57,6 +57,7 @@ This can be copied and used as the value of a variable in another program.
 The file will be saved in the same directory the script is located in.  
 
 The other block prints the search results directly to the terminal in the following format:  
+
     Business Name  
     Business address  
     
