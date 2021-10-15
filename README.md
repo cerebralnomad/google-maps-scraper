@@ -32,7 +32,7 @@ The line will look like:
 
     api_key = 'your_api_key'
     
-Run the script with the necessary options, coordinates, radius, and keyword.  
+Run the script with the necessary options: coordinates, radius, and keyword.  
 
     gmscraper -c 'coordinates' -r [radius] -k [keyword]
     
