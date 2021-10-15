@@ -22,7 +22,7 @@ You will have to have an API key for Google Maps Places to use this script.
 You can create a key with a Google Cloud Developer account at https://cloud.google.com/.  
 A recent requirement of Google is that you have a form of payment on file before a key can be enabled.  
 Use of the key however is basically free for personal use as Google will apply a monthly credit  
-of $200 to your accoun, which will cover pretty much any amount of non-commercial use.
+of $200 to your account, which will cover pretty much any amount of non-commercial use.
 
 ## Usage
 
