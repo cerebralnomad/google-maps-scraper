@@ -3,7 +3,8 @@ Scrape Google Maps for locations matching a given keyword within a specified rad
 
 ## Installation
 
-Create a virtualenv for the project and clone this repo into it.  
+Create a virtualenv for the project unless you already have the dependancies installed  
+or want to install them globally, and clone this repo into it.  
 The packages and modules required for running the script are:  
 
 requests  
@@ -26,6 +27,32 @@ of $200 to your account
 ## Usage
 
 Since this script was designed for personal use and to be run locally, the API key is hard coded into the file.  
-You'll need to edit gmscraper.py and add your API key on line 68.  
+You'll need to edit gmscraper.py with Vim or a GUI text editor and add your API key on line 68.  
 The line will look like:  
+
+    api_key = 'your_api_key'
+    
+Run the script with the necessary options, coordinates, radius, and keyword.  
+
+    gmscraper -c 'coordinates' -r [radius] -k [keyword]
+    
+For example:
+
+    gmscraper -c '38.897626180055525, -77.03679802300508' -r 1000 -k 'restaurant'
+    
+The above coordinates are for the White House in Washington D.C.  
+This command is the default and will return a list of all restaurants within 1000 meters of the White House.
+
+Retreve the full help text with:
+
+    gmscraper -h
+    
+## Options
+
+By default the script will display the results of the search in a table directly in the terminal.
+
+Two blocks of code are commented out.  
+One block dumps the results of the search into a file 'search_results.py' in the form of a nested list.  
+This can be copied and used as the value of a variable in another program.  
+The other block prints the search results directly to the terminal.  
 
