@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 
 '''
-Copyright (C) 2019
+Copyright (C) 2021
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
@@ -116,7 +116,7 @@ print()
 # to copy as a nested list variable for another program.
 
 '''
-with open('restaurants.py', 'w') as f:
+with open('search_results.py', 'w') as f:
         json.dump(final_data, f)
 '''
 
