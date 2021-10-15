@@ -54,5 +54,13 @@ By default the script will display the results of the search in a table directly
 Two blocks of code are commented out.  
 One block dumps the results of the search into a file 'search_results.py' in the form of a nested list.  
 This can be copied and used as the value of a variable in another program.  
-The other block prints the search results directly to the terminal.  
+The file will be saved in the same directory the script is located in.  
 
+The other block prints the search results directly to the terminal in the following format:  
+    Business Name  
+    Business address  
+    
+    Business Name  
+    Business address
+    
+Just remove the ''' before and after either code block you want to use.
