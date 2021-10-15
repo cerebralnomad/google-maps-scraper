@@ -68,7 +68,7 @@ Just remove the ''' before and after either code block you want to use.
 
 ## License
 
-Copyright (C) 2021
+Copyright (C) 2021  
    This program is free software: you can redistribute it and/or modify  
    it under the terms of the GNU General Public License as published by  
    the Free Software Foundation, either version 3 of the License, or  
